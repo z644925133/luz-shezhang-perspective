@@ -1,0 +1,528 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-17",
+  "model_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "digest_baseline_commit": "167ddd6a86da1ca563443563b1d44877e47ff3ca",
+  "fact_verification": "not_performed",
+  "models": [
+    {
+      "model_id": 1,
+      "name": "话事人坐标系",
+      "sources": [
+        {
+          "section": "#3",
+          "video_id": "O6lNAnKuwo8",
+          "title": "二十一大常委预测 · 30.6 min",
+          "digest_path": "sources/articles/TOP10_DIGEST.md",
+          "line_start": 37,
+          "line_end": 50,
+          "original_video_url": "https://www.youtube.com/watch?v=O6lNAnKuwo8",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "Top#3"
+        },
+        {
+          "section": "B5-7",
+          "video_id": "hMuAc7-TZW8",
+          "title": "21大政治局委员预测 · ~36.9 min",
+          "digest_path": "sources/articles/BATCH5_DIGEST.md",
+          "line_start": 82,
+          "line_end": 93,
+          "original_video_url": "https://www.youtube.com/watch?v=hMuAc7-TZW8",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B5-7"
+        }
+      ],
+      "source_limit": "这些节目/摘要属于同一频道来源，不是独立事实验证。",
+      "interpretation_note": null
+    },
+    {
+      "model_id": 2,
+      "name": "嫡系时间戳与祭旗对称（「保质期」为蒸馏名）",
+      "sources": [
+        {
+          "section": "#2",
+          "video_id": "g2Xkh2VMMp8",
+          "title": "张又侠被查 · 18.6 min",
+          "digest_path": "sources/articles/TOP10_DIGEST.md",
+          "line_start": 24,
+          "line_end": 36,
+          "original_video_url": "https://www.youtube.com/watch?v=g2Xkh2VMMp8",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "Top#2"
+        },
+        {
+          "section": "B2-8",
+          "video_id": "9q9O9PWdaEk",
+          "title": "军队清洗亲信 · ~21.5 min",
+          "digest_path": "sources/articles/BATCH2_DIGEST.md",
+          "line_start": 81,
+          "line_end": 90,
+          "original_video_url": "https://www.youtube.com/watch?v=9q9O9PWdaEk",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B2-8"
+        }
+      ],
+      "source_limit": "这些节目/摘要属于同一频道来源，不是独立事实验证。",
+      "interpretation_note": null
+    },
+    {
+      "model_id": 3,
+      "name": "必杀局与引爆点分离",
+      "sources": [
+        {
+          "section": "#1",
+          "video_id": "h7fNAHlLPiQ",
+          "title": "薄熙来 / 319 · 46.6 min",
+          "digest_path": "sources/articles/TOP10_DIGEST.md",
+          "line_start": 10,
+          "line_end": 23,
+          "original_video_url": "https://www.youtube.com/watch?v=h7fNAHlLPiQ",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "Top#1"
+        },
+        {
+          "section": "#9",
+          "video_id": "AFaqONILXgk",
+          "title": "令谷 vs 江志成 · 32.3 min",
+          "digest_path": "sources/articles/TOP10_DIGEST.md",
+          "line_start": 120,
+          "line_end": 132,
+          "original_video_url": "https://www.youtube.com/watch?v=AFaqONILXgk",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "Top#9"
+        }
+      ],
+      "source_limit": "这些节目/摘要属于同一频道来源，不是独立事实验证。",
+      "interpretation_note": null
+    },
+    {
+      "model_id": 4,
+      "name": "派系拆解分期节奏（「分期付款」为蒸馏名，勿与买地/房贷字面义混）",
+      "sources": [
+        {
+          "section": "#6",
+          "video_id": "RxUAgLkqraM",
+          "title": "习王决裂 · 20.9 min",
+          "digest_path": "sources/articles/TOP10_DIGEST.md",
+          "line_start": 79,
+          "line_end": 92,
+          "original_video_url": "https://www.youtube.com/watch?v=RxUAgLkqraM",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "Top#6"
+        },
+        {
+          "section": "#8",
+          "video_id": "sGbFr4AcT6c",
+          "title": "消灭太子党 · 34.3 min",
+          "digest_path": "sources/articles/TOP10_DIGEST.md",
+          "line_start": 106,
+          "line_end": 119,
+          "original_video_url": "https://www.youtube.com/watch?v=sGbFr4AcT6c",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "Top#8"
+        },
+        {
+          "section": "B5-4",
+          "video_id": "W7rg8YU7tdk",
+          "title": "王岐山【下集】· ~39.8 min",
+          "digest_path": "sources/articles/BATCH5_DIGEST.md",
+          "line_start": 48,
+          "line_end": 59,
+          "original_video_url": "https://www.youtube.com/watch?v=W7rg8YU7tdk",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B5-4"
+        }
+      ],
+      "source_limit": "这些节目/摘要属于同一频道来源，不是独立事实验证。",
+      "interpretation_note": null
+    },
+    {
+      "model_id": 5,
+      "name": "白手套与政策转向（「政策潮汐」为蒸馏名，口播未见「潮汐」）",
+      "sources": [
+        {
+          "section": "#10",
+          "video_id": "eWqI-GOLEfw",
+          "title": "许家印 / 恒大 · 38.8 min",
+          "digest_path": "sources/articles/TOP10_DIGEST.md",
+          "line_start": 133,
+          "line_end": 146,
+          "original_video_url": "https://www.youtube.com/watch?v=eWqI-GOLEfw",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "Top#10"
+        },
+        {
+          "section": "B2-1",
+          "video_id": "NlpPCYF1n1Y",
+          "title": "王健林/万达 · ~39.7 min",
+          "digest_path": "sources/articles/BATCH2_DIGEST.md",
+          "line_start": 11,
+          "line_end": 21,
+          "original_video_url": "https://www.youtube.com/watch?v=NlpPCYF1n1Y",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B2-1"
+        }
+      ],
+      "source_limit": "这些节目/摘要属于同一频道来源，不是独立事实验证。",
+      "interpretation_note": null
+    },
+    {
+      "model_id": 6,
+      "name": "权力资本：关系点火 vs 研究能力长大（「食利型/进化型」为蒸馏名）",
+      "sources": [
+        {
+          "section": "#9",
+          "video_id": "AFaqONILXgk",
+          "title": "令谷 vs 江志成 · 32.3 min",
+          "digest_path": "sources/articles/TOP10_DIGEST.md",
+          "line_start": 120,
+          "line_end": 132,
+          "original_video_url": "https://www.youtube.com/watch?v=AFaqONILXgk",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "Top#9"
+        },
+        {
+          "section": "#10",
+          "video_id": "eWqI-GOLEfw",
+          "title": "许家印 / 恒大 · 38.8 min",
+          "digest_path": "sources/articles/TOP10_DIGEST.md",
+          "line_start": 133,
+          "line_end": 146,
+          "original_video_url": "https://www.youtube.com/watch?v=eWqI-GOLEfw",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "Top#10"
+        }
+      ],
+      "source_limit": "这些节目/摘要属于同一频道来源，不是独立事实验证。",
+      "interpretation_note": null
+    },
+    {
+      "model_id": 7,
+      "name": "元老管道断流",
+      "sources": [
+        {
+          "section": "B2-9",
+          "video_id": "bDFiScvyhaA",
+          "title": "习与江派/元老 · ~29.9 min",
+          "digest_path": "sources/articles/BATCH2_DIGEST.md",
+          "line_start": 91,
+          "line_end": 100,
+          "original_video_url": "https://www.youtube.com/watch?v=bDFiScvyhaA",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B2-9"
+        },
+        {
+          "section": "B2-12",
+          "video_id": "VceCsZGGcdk",
+          "title": "江泽民逆袭 · ~47.7 min",
+          "digest_path": "sources/articles/BATCH2_DIGEST.md",
+          "line_start": 120,
+          "line_end": 128,
+          "original_video_url": "https://www.youtube.com/watch?v=VceCsZGGcdk",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B2-12"
+        }
+      ],
+      "source_limit": "这些节目/摘要属于同一频道来源，不是独立事实验证。",
+      "interpretation_note": null
+    },
+    {
+      "model_id": 8,
+      "name": "饭局与私下结盟（「电压表」为蒸馏隐喻，口播未见「电压」）",
+      "sources": [
+        {
+          "section": "B2-2",
+          "video_id": "THTmYGlpIAI",
+          "title": "苗华/李干杰饭局 · ~20.8 min",
+          "digest_path": "sources/articles/BATCH2_DIGEST.md",
+          "line_start": 22,
+          "line_end": 31,
+          "original_video_url": "https://www.youtube.com/watch?v=THTmYGlpIAI",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B2-2"
+        }
+      ],
+      "source_limit": "这些节目/摘要属于同一频道来源，不是独立事实验证。本索引当前仅一条直接节目摘要，不凑第二条。",
+      "interpretation_note": null
+    },
+    {
+      "model_id": 9,
+      "name": "文宣/春晚流量阀",
+      "sources": [
+        {
+          "section": "B3-1",
+          "video_id": "m6_19-gMuwk",
+          "title": "佟丽娅/春晚·文宣 · ~32.8 min",
+          "digest_path": "sources/articles/BATCH3_DIGEST.md",
+          "line_start": 11,
+          "line_end": 21,
+          "original_video_url": "https://www.youtube.com/watch?v=m6_19-gMuwk",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B3-1"
+        },
+        {
+          "section": "B3-2",
+          "video_id": "9ey9p8xM-LM",
+          "title": "赵本山帝国 · ~38.7 min",
+          "digest_path": "sources/articles/BATCH3_DIGEST.md",
+          "line_start": 22,
+          "line_end": 32,
+          "original_video_url": "https://www.youtube.com/watch?v=9ey9p8xM-LM",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B3-2"
+        }
+      ],
+      "source_limit": "这些节目/摘要属于同一频道来源，不是独立事实验证。",
+      "interpretation_note": null
+    },
+    {
+      "model_id": 10,
+      "name": "宗教统战管道",
+      "sources": [
+        {
+          "section": "B3-6",
+          "video_id": "jUO6Mcp9KYw",
+          "title": "释永信/宗教局 · ~31.6 min",
+          "digest_path": "sources/articles/BATCH3_DIGEST.md",
+          "line_start": 64,
+          "line_end": 74,
+          "original_video_url": "https://www.youtube.com/watch?v=jUO6Mcp9KYw",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B3-6"
+        }
+      ],
+      "source_limit": "这些节目/摘要属于同一频道来源，不是独立事实验证。本索引当前仅一条直接节目摘要，不凑第二条。",
+      "interpretation_note": null
+    },
+    {
+      "model_id": 11,
+      "name": "陪伴权坐标系",
+      "sources": [
+        {
+          "section": "B4-5",
+          "video_id": "YKXvrIxWrn0",
+          "title": "何卫东与秦刚：跳级生 · ~24.5 min",
+          "digest_path": "sources/articles/BATCH4_DIGEST.md",
+          "line_start": 62,
+          "line_end": 73,
+          "original_video_url": "https://www.youtube.com/watch?v=YKXvrIxWrn0",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B4-5"
+        },
+        {
+          "section": "B4-8",
+          "video_id": "VjxvgGOgvxc",
+          "title": "何立峰：第一宠臣 · ~27.4 min",
+          "digest_path": "sources/articles/BATCH4_DIGEST.md",
+          "line_start": 96,
+          "line_end": 107,
+          "original_video_url": "https://www.youtube.com/watch?v=VjxvgGOgvxc",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B4-8"
+        }
+      ],
+      "source_limit": "这些节目/摘要属于同一频道来源，不是独立事实验证。",
+      "interpretation_note": null
+    },
+    {
+      "model_id": 12,
+      "name": "跳级生风险与向下穿透（「消藩」为蒸馏名，口播作向下穿透／土皇帝；「跳级生」ASR「跳机生」）",
+      "sources": [
+        {
+          "section": "B4-5",
+          "video_id": "YKXvrIxWrn0",
+          "title": "何卫东与秦刚：跳级生 · ~24.5 min",
+          "digest_path": "sources/articles/BATCH4_DIGEST.md",
+          "line_start": 62,
+          "line_end": 73,
+          "original_video_url": "https://www.youtube.com/watch?v=YKXvrIxWrn0",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B4-5"
+        },
+        {
+          "section": "B4-12",
+          "video_id": "YWsPTr7iaG4",
+          "title": "王莉霞与消藩 · ~30.4 min",
+          "digest_path": "sources/articles/BATCH4_DIGEST.md",
+          "line_start": 143,
+          "line_end": 154,
+          "original_video_url": "https://www.youtube.com/watch?v=YWsPTr7iaG4",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B4-12"
+        },
+        {
+          "section": "B5-2",
+          "video_id": "Cxn2Jxv6pt8",
+          "title": "张升民 · ~20.4 min",
+          "digest_path": "sources/articles/BATCH5_DIGEST.md",
+          "line_start": 24,
+          "line_end": 35,
+          "original_video_url": "https://www.youtube.com/watch?v=Cxn2Jxv6pt8",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B5-2"
+        }
+      ],
+      "source_limit": "这些节目/摘要属于同一频道来源，不是独立事实验证。",
+      "interpretation_note": "B5-2是现有摘要提供的跳级风险对照，仍是节目推断，不作成功反例的独立事实认证。"
+    },
+    {
+      "model_id": 13,
+      "name": "接班人「三个约定」被拆与布局阶段（「废约／三前提」为蒸馏；口播作「三个约定」）",
+      "sources": [
+        {
+          "section": "B5-7",
+          "video_id": "hMuAc7-TZW8",
+          "title": "21大政治局委员预测 · ~36.9 min",
+          "digest_path": "sources/articles/BATCH5_DIGEST.md",
+          "line_start": 82,
+          "line_end": 93,
+          "original_video_url": "https://www.youtube.com/watch?v=hMuAc7-TZW8",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B5-7"
+        },
+        {
+          "section": "B5-8",
+          "video_id": "z5VepflBTPg",
+          "title": "接班人三阶段 · ~19.4 min",
+          "digest_path": "sources/articles/BATCH5_DIGEST.md",
+          "line_start": 94,
+          "line_end": 104,
+          "original_video_url": "https://www.youtube.com/watch?v=z5VepflBTPg",
+          "evidence_kind": "bundled_summary",
+          "verification": "summary_checked_not_audio_or_event_verified",
+          "locator_precision": "digest_section",
+          "independent_fact_source": false,
+          "index_key": "B5-8"
+        }
+      ],
+      "source_limit": "这些节目/摘要属于同一频道来源，不是独立事实验证。",
+      "interpretation_note": null
+    }
+  ],
+  "third_party_locators": [
+    {
+      "video_id": "YKXvrIxWrn0",
+      "topic": "跳级生概述",
+      "start_seconds": 7.8,
+      "end_seconds": 20.2,
+      "line_start": 2,
+      "line_end": 2,
+      "precision": "asr_segment_not_audio_checked",
+      "verification": "third_party_asr_only",
+      "source_commit": "e07e378e33b821ee19440f7bf35734893c2449bc",
+      "source_url": "https://github.com/Business-Unit-for-Video/zrzjpl-video2text/blob/e07e378e33b821ee19440f7bf35734893c2449bc/youtube_channels/%E6%94%BF%E7%BB%8F%E9%B2%81%E7%A4%BE%E9%95%BF/with_timestamps/%E6%94%BF%E7%BB%8F%E9%B2%81%E7%A4%BE%E9%95%BF_YKXvrIxWrn0.txt#L2"
+    },
+    {
+      "video_id": "YKXvrIxWrn0",
+      "topic": "小孩坐金山的比喻",
+      "start_seconds": 1366.36,
+      "end_seconds": 1374.36,
+      "line_start": 309,
+      "line_end": 309,
+      "precision": "asr_segment_not_audio_checked",
+      "verification": "third_party_asr_only",
+      "source_commit": "e07e378e33b821ee19440f7bf35734893c2449bc",
+      "source_url": "https://github.com/Business-Unit-for-Video/zrzjpl-video2text/blob/e07e378e33b821ee19440f7bf35734893c2449bc/youtube_channels/%E6%94%BF%E7%BB%8F%E9%B2%81%E7%A4%BE%E9%95%BF/with_timestamps/%E6%94%BF%E7%BB%8F%E9%B2%81%E7%A4%BE%E9%95%BF_YKXvrIxWrn0.txt#L309"
+    }
+  ],
+  "unavailable_materials": [
+    "/workspace/luz-os-catalog-2026-11-14-proofed.md",
+    "/workspace/luz-book-catalog-2026-11-14-proofed.md",
+    "/workspace/luz-method-proof-2026-11-14.md",
+    "references/research/",
+    "references/sources/transcripts/"
+  ],
+  "restricted_video_ids": [
+    "b64ekVis8ZE",
+    "3Ur5C4qqqP4"
+  ]
+}

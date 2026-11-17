@@ -1,0 +1,26 @@
+# Raw material, media and credentials are outside the public release.
+**/transcripts/
+yt-channel-asr/
+**/*.raw.txt
+*.srt
+*.vtt
+*.mp3
+*.mp4
+*.m4a
+*.wav
+*.webm
+*.flac
+**/cookies*
+**/.env
+**/.env.*
+*.pem
+id_rsa
+id_ed25519
+
+# Local tools and scratch work.
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.superpowers/
+.worktrees/

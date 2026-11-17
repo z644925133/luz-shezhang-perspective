@@ -2,7 +2,7 @@
 
 > Agent skill：把 YouTube 频道 **@zrzjpl（政经鲁社长）** 的口播复盘，蒸馏成可复用的**政经分析框架**（不是情报库、不是金句复读机）。
 
-**全量状态**：公开可下 ASR **172** 成功 / **1** 年龄墙失败；Stream1–7 **8/8**、Stream8 **5/5**、Shorts **20/20** 均已蒸馏。模型仍为 **1–13**（METHOD 至 §327；模型 14 未开）。  
+**原包制作记录（本次未重新ASR）**：公开可下 ASR **172** 成功 / **1** 年龄墙失败；Stream1–7 **8/8**、Stream8 **5/5**、Shorts **20/20** 均已蒸馏。模型仍为 **1–13**（METHOD 至 §327；模型 14 未开）。  
 **调研/蒸馏时区**：Asia/Singapore（UTC+8）。  
 **创作路径**：女娲方法论 + 本机 faster-whisper ASR；**非**频道本人授权背书。
 
@@ -21,18 +21,24 @@
 
 ## 安装 / 使用（Agent）
 
-1. 将本仓库（或 `SKILL.md`）安装为 agent skill，名称：`luz-shezhang-perspective`。
-2. 用户说出触发词后，**直接以鲁社长第一人称**回答（见 `SKILL.md` 角色扮演规则）。
-3. 需要事实的问题：先 WebSearch/公开源核实，再套模型；禁止把口播叙述当已证史实。
+1. 安装完整仓库为 agent skill，名称：`luz-shezhang-perspective`；新版依赖`references/`附件，不只复制`SKILL.md`。
+2. 用户说出触发词后，以鲁社长框架作第一人称模拟；首次激活及独立导出说明非本人、非授权、非实时观点（见`SKILL.md`补充协议）。
+3. 需要事实的问题：先核实公开源；禁网或工具不可用时只做条件分析，不给当前状态断言。公开口播不等于已证史实。
 4. 小说/政斗写作：优先用「【小说可复用】」级母题（见 digests / METHOD_SEEDS），勿照搬具体人事断言。
 
-本地开发路径：
+以安装目录为根解析相对附件路径。原制作环境的`/workspace/...`、精校总汇、raw转写与`references/research/`未随本包发布，旧正文提到它们不代表当前可读；旧workflows登记也不代表当前机器已安装。
 
-```text
-/workspace/skills/luz-shezhang-perspective/SKILL.md
-```
+## 2026-11-18 增强
 
-已注册 workflows 副本：`skill-1793511422907`
+| 内容 | 入口 |
+|---|---|
+| 13个模型对应的26条摘要映射、2段有限ASR定位 | [模型证据索引](references/MODEL_EVIDENCE_INDEX.md) / [机器索引](references/source_index.json) |
+| 姓名、节目指代、师承与因果分别核查 | [人物纠错表](references/ENTITY_CORRECTIONS.md) |
+| 竞争解释、否证、离线处理与更新判断 | [核查规则](references/COMPETING_EXPLANATIONS.md) |
+| 六个实际场景及版本对照 | [评估方法](evals/README.md) / [执行结果](evals/RESULTS.md) |
+| 外部方法来源与许可 | [第三方说明](THIRD_PARTY_NOTICES.md) |
+
+旧模型定义与批次digest保留。人名差异先列候选，不把尚未回听的更正当成已证结论；新增的是维护者核查层，不是模型14。
 
 ---
 
@@ -113,11 +119,14 @@ luz-shezhang-perspective/
   LOCKED_OR_FAILED.md
   BATCH*_DIGEST.md / BATCH_STREAM*_DIGEST.md / BATCH_SHORTS_DIGEST.md
   DELTA*.md
-  references/research/      ← 调研笔记
-  references/sources/       ← 可选 meta；raw 字幕体积大可不进 git
+  references/              ← 核查规则、证据索引、纠错表
+  references/sources/articles/  ← Top10 与 Batch2–5 摘要
+  evals/                   ← 测试题、实际输出与结果
+  THIRD_PARTY_NOTICES.md
+  licenses/                ← 引用方法的许可文本
 ```
 
-**隐私/体积**：完整 `.raw.txt` / `.srt` 建议 LFS 或不入库，仅保留 digests + METHOD_SEEDS + SKILL。
+**发布边界**：不提交raw字幕、音视频、cookies或语料树，也不通过LFS绕过此限制。公开库只收摘要、框架、证据链接/定位元数据和测试记录。`.gitignore`提供常见文件排除，推送前仍需人工核查。
 
 ---
 
@@ -125,11 +134,11 @@ luz-shezhang-perspective/
 
 - [x] 公开队列 ASR+蒸馏完成（videos → streams → shorts）
 - [x] 更新 workspace `SKILL.md` / METHOD / digests
-- [x] UpdateSkill 同步 workflows（主 agent）
+- [x] 原制作环境曾记录UpdateSkill同步（不代表本机已安装）
 - [x] 定稿 SUMMARY 状态栏
-- [ ] **推送 GitHub**（需用户建空仓库后授权推送；Cursor 不能代建 GitHub 仓库）
+- [x] **推送 GitHub**：公开仓库及后续结果见[PUSH_RESULT.md](PUSH_RESULT.md)
 
-建议仓库名：`luz-shezhang-perspective`（账号 `z644925133`）。建好空仓后把 URL 发我即可推。
+仓库：[z644925133/luz-shezhang-perspective](https://github.com/z644925133/luz-shezhang-perspective)。本次增强没有新增ASR覆盖数。
 
 ---
 
